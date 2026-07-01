@@ -108,12 +108,12 @@
         display-name = "GAME";
 
         bindings = <
-                    &kp KC_5  &kp KC_ESC &kp KC_1  &kp KC_2  &kp KC_3  &kp KC_4   &trans &trans &trans &trans &trans &trans
-                    &kp KC_T  &kp KC_TAB &kp KC_Q  &kp KC_W  &kp KC_E  &kp KC_R   &trans &trans &trans &trans &trans &trans
-                    &kp KC_G  &kp KC_LSFT &kp KC_A &kp KC_S  &kp KC_D  &kp KC_F   &trans &trans &trans &trans &trans &trans
-                    &kp KC_B  &kp KC_LALT &kp KC_Z &kp KC_X  &kp KC_C  &kp KC_V   &trans &trans &trans &trans &trans &trans
-                    &trans    &kp KC_C    &mo LOWER &kp KC_SPC &kp KC_LCTL &trans &trans &trans &trans &trans
-                >;
+            &kp N5  &kp ESC &kp N1 &kp N2 &kp N3 &kp N4   &trans &trans &trans &trans &trans &trans
+            &kp T   &kp TAB &kp Q  &kp W  &kp E  &kp R    &trans &trans &trans &trans &trans &trans
+            &kp G   &kp LSHFT &kp A &kp S  &kp D  &kp F   &trans &trans &trans &trans &trans &trans
+            &kp B   &kp LALT &kp Z  &kp X  &kp C  &kp V   &trans &trans &trans &trans &trans &trans
+            &trans  &kp C   &mo LOWER &kp SPACE &kp LCTRL &trans &trans &trans &trans &trans
+        >;
                 sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
 
